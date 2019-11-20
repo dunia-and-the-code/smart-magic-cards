@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,14 @@
   <script src="js/index.js" defer></script>
   <title>Smart Magic Cards</title>
 </head>
+
 <body class="bg-primary">
   <nav class="navbar navbar-dark bg-primary border-1 border-bottom border-light">
     <a class="navbar-brand" href="https://www.autoenrolment.co.uk" target="_blank" rel="noopener noreferrer">
       <img src="assets/smart-logo.svg" height="40" alt="smart-logo">
     </a>
   </nav>
+  <div class="text-container">
   <h1 class="text-white text-center pt-4">Become a software engineer at Smart</h1>
   <h3 class="text-white text-center">Join Smart by simply performing a magic trick</h3>
   <p class="text-white text-center py-4">
@@ -22,16 +25,21 @@
     He will show us all of the cards and we will see that they are ordered and sorted by suit.<br>
     We are asked to shuffle the deck.<br>
     Then the magician takes the cards together and shakes them.<br>
-    When he reveals the deck of cards once more, the cards have been ordered and sorted as before, as if it was a new deck of cards.<br>
+    When he reveals the deck of cards once more, the cards have been ordered and sorted as before, <br>
+    as if it was a new deck of cards.<br>
     All the hearts are together and sorted from 1 to the King.
- <br>
+    <br>
   </p>
+</div>
   <div class="game-container">
     <div class="d-flex justify-content-center mb-5 btn-wrapper">
       <button type="button" id="start-game" class="btn btn-lg btn-secondary">Let's get started</button>
     </div>
-    <div class="cards-wrapper mx-4 position-relative text-center">
+    <div class="d-flex justify-content-center mb-5 btns-wrapper">
+    </div>
+    <div class="cards-wrapper mx-4 position-relative text-center" id='cards-wrapper'>
     </div>
   </div>
 </body>
+
 </html>

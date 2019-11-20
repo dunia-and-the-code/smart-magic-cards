@@ -1656,7 +1656,7 @@ button.bg-dark:focus {
 
 .pt-4,
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding: 1.5rem !important;
 }
 
 .pr-4,
@@ -1666,7 +1666,7 @@ button.bg-dark:focus {
 
 .pb-4,
 .py-4 {
-  padding-bottom: 1.5rem !important;
+  padding: 1.5rem !important;
 }
 
 .pl-4,
@@ -3605,7 +3605,9 @@ button.bg-dark:focus {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: left !important;
+  width: 850px;
+  align-self: center;
 }
 
 @media (min-width: 576px) {
@@ -3850,6 +3852,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 p {
@@ -5946,3 +5949,10 @@ h1 {
 }
 
 /*# sourceMappingURL=index.css.map */
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
